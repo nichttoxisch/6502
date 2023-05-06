@@ -11,4 +11,4 @@ npm run p5
 
 Example program to multiply 4 with 8
 
-![screenshot](https://github.com/nichttoxisch/6502/blob/main/images/screenshot.jpg?raw=true)
+![screenshot](https://github.com/nichttoxisch/6502/blob/main/images/screenshot.png?raw=true)
