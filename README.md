@@ -38,7 +38,7 @@ make msbasic
 ```
 
 
-From there you start in Wozmon. From the type the following expression to enter MS Basic:
+From there you start in Wozmon. From there type the following expression to enter MS Basic:
 ```console
 8000 R
 ```
