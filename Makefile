@@ -21,11 +21,7 @@ wozmon: lib wozmon_lib
 wozmon_lib:
 	ca65 src/wozmon/wozmon.asm -o build/wozmon.o
 	ld65 -C src/wozmon/wozmon.cfg -vm -m build/wozmon.map -o roms/wozmon.nes build/wozmon.o
-
-func: lib
-	$(CC) $(CFLAGS)  -o build/func src/func.c src/instructions.c $(TARGET_LIB) $(INC)
-	./build/func
-
+	
 nestest: lib
 	$(CC) $(CFLAGS)  -o build/nestest src/nestest.c -L./lib/ -lcpu $(INC)
 	./build/nestest
