@@ -37,6 +37,12 @@ To run msbasic use:
 make msbasic
 ```
 
+
+From there you start in Wozmon. From the type the following expression to enter MS Basic:
+```console
+8000 R
+```
+
 <p>
 <img src="./resources/msbasic.png">
 </p>
