@@ -1,4 +1,4 @@
-# 6502 Emultor
+# 6502 Emulator
 This 6502 Emulator implements the instruction set including come documented illegal opcodes (DCM, NOP, LAX, SAX). The motivation to program this project came from [Ben Eater](https://www.youtube.com/@BenEater) with his 6502 series. 
 
 ## Nestest
